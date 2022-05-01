@@ -21,6 +21,13 @@ namespace Lesson_1
             // Присваиваем ей вводимое в консоли
             string name = Console.ReadLine();
 
+            // Выводим в консоли введенное имя методом интерполяции,
+            // а также дату и время в данный момент
+            Console.WriteLine($"Здраствуйте! {name}! \n" +
+                $"Сегодня: {DateTime.Now.ToShortDateString()} \n" +
+                $"Время: {DateTime.Now.ToShortTimeString()}");
+
+
         }
     }
 }
