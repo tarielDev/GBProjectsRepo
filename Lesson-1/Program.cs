@@ -27,6 +27,8 @@ namespace Lesson_1
                 $"Сегодня: {DateTime.Now.ToShortDateString()} \n" +
                 $"Время: {DateTime.Now.ToShortTimeString()}");
 
+            // Для задержки дополнительно вставляю ожидание ввода с клавиатуры
+            Console.ReadLine();
 
         }
     }
